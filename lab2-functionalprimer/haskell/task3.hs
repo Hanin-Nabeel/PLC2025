@@ -1,4 +1,4 @@
-sgn x = if x < 0 then -1 else if x == 0 then 0 else 1
+sgn x = if x < 0 then "Turn Heating On" else if x == 0 then "Heating is not on" else "Turn Heating Off"
 
 main = do
     putStrLn "Please enter a number"
